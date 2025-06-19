@@ -6,7 +6,7 @@ import numpy as np
 model = joblib.load('breast_cancer_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
-st.title("Breast Cancer Prediction App")
+st.title("Check My Tumor")
 
 # Example: Replace with your actual feature names
 feature_names = ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean']  # Fill with all features used in X
